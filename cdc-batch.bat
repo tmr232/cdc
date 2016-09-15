@@ -19,7 +19,7 @@ if %errorlevel% neq 0 (
 )
 
 :: Number of items in directory
-for /f %%i in (' "dir /B | findstr /R /N "^.*$" | C:\Windows\System32\find.exe /C ":"" ') do set n=%%i
+for /f %%i in (' "dir /B | findstr /R /N "^.*$" | find /C ":"" ') do set n=%%i
 
 :: If only dir entry, cd into it
 if %n% == 1 (
