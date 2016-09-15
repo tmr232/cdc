@@ -30,7 +30,3 @@ C:\some\very\long\line\of\pointless\directories
 1. Bash (`cdc-bash.sh`)
 2. cmd.exe (`cdc-batch.bat`)
 3. Powershell (`cdc-posh.ps1`)
-
-## Future Versions
-
-1. `cdc ..` should go up, as expected.
